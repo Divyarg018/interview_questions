@@ -2,10 +2,15 @@
 JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.
 
 2)What is the difference between Java & JavaScript?
-Java	JavaScript
-Java is an OOP programming language.	JavaScript is an OOP scripting language.
-It creates applications that run in a virtual machine or browser.	The code is run on a browser only.
-Java code needs to be compiled.	JavaScript code are all in the form of text.
+Java:	                                      
+1.Java is an OOP programming language.	
+2.It creates applications that run in a virtual machine or browser.	
+3.Java code needs to be compiled.
+
+JavaScript:
+1.JavaScript is an OOP scripting language.
+2.The code is run on a browser only.	
+3.JavaScript code are all in the form of text.
 
 3)What are the data types supported by JavaScript?
 The data types supported by JavaScript are:
