@@ -46,5 +46,8 @@ Both are comparison operators. The difference between both the operators is that
 8)Explain Hoisting in javascript.
 Hoisting is the default behaviour of javascript where all the variable and function declarations are moved on top. The scope can be both local and global.
 
+9)What is the purpose of ‘This’ operator in JavaScript?
+The JavaScript this keyword refers to the object it belongs to. This has different values depending on where it is used. In a method, this refers to the owner object and in a function, this refers to the global object.
+
 
 
