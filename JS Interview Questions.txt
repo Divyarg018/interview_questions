@@ -41,7 +41,7 @@ Yes, JavaScript is a case sensitive language.The language keywords,variables,fun
 Interfaces are richer.
 
 7)Difference between “ == “ and “ === “ operators.
-Both are comparison operators. The difference between both the operators is that “==” is used to compare values whereas, “ === “ is used to compare both values and types.
+Both are comparison operators.The difference between both the operators is that “==” is used to compare values whereas, “ === “ is used to compare both values and types.
 
 8)Explain Hoisting in javascript.
 Hoisting is the default behaviour of javascript where all the variable and function declarations are moved on top. The scope can be both local and global.
@@ -49,5 +49,14 @@ Hoisting is the default behaviour of javascript where all the variable and funct
 9)What is the purpose of ‘This’ operator in JavaScript?
 The JavaScript this keyword refers to the object it belongs to. This has different values depending on where it is used. In a method, this refers to the owner object and in a function, this refers to the global object.
 
+10)How to create an array in JavaScript?
+There are 3 ways to create an array in JavaScript.
+
+1.By array literal
+2.By creating an instance of Array
+3.By using an Array constructor
+
+Let's see a simple code to create an array using object literal.
+var emp=["Shyam","Vimal","Ratan"];
 
 
