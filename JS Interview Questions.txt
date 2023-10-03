@@ -17,4 +17,18 @@ The data types supported by JavaScript are:
 •Number
 •Object
 
+4)What are the features of JavaScript?
+Lightweight
+Interpreted programming language
+Good for the applications which are network-centric
+Complementary to Java
+Complementary to HTML
+Open source
+Cross-platform
+
+
+
+
+
+
 
