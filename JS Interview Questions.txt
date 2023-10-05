@@ -68,9 +68,7 @@ var a = 23;
 var a = "Hello World!";
 
 12)What is NaN property in JavaScript?
-A)NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number.
-
-typeof of NaN will return a Number.
+A)NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number and typeof of NaN will return a Number.
 
 To check if a value is NaN, we use the isNaN() function,example
 isNaN("Hello")  // Returns true
@@ -79,4 +77,17 @@ isNaN('1')  // Returns false, since '1' is converted to Number type which result
 isNaN(true) // Returns false, since true converted to Number type results in 1 ( a number)
 isNaN(false) // Returns false
 isNaN(undefined) // Returns true
+
+13)Explain Higher Order Functions in javascript.
+A)Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
+
+Higher-order functions are a result of functions being first-class citizens in javascript.
+
+Example for higher-order functions:
+
+function higherOrder(fn) {
+  fn();
+}
+   
+higherOrder(function() { console.log("Hello world") });
 
