@@ -100,3 +100,8 @@ An undeclared variable has not been declared anywhere in the code, so said varia
 
 An undefined variable has been declared in the program, but no value has been assigned. This means the variable exists, but its value is yet to be defined.
 
+16)How to write HTML code dynamically using JavaScript?
+A)The innerHTML property is used to write the HTML code using JavaScript dynamically. 
+Ex:document.getElementById('mylocation').innerHTML="<h2>This is heading using JavaScript</h2>";
+
+
