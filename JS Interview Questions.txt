@@ -91,3 +91,12 @@ function higherOrder(fn) {
    
 higherOrder(function() { console.log("Hello world") });
 
+14)In JavaScript what is an argument object?
+A)The variables of JavaScript represent the arguments that are passed to a function.
+
+15)What is the difference between Undeclared & Undefined Variables?
+A)The difference between Undeclared & Undefined Variables are:
+An undeclared variable has not been declared anywhere in the code, so said variable does not exist. If you try to read an undeclared variable, JavaScript throws an error.
+
+An undefined variable has been declared in the program, but no value has been assigned. This means the variable exists, but its value is yet to be defined.
+
