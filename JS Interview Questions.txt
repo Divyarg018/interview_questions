@@ -104,4 +104,12 @@ An undefined variable has been declared in the program, but no value has been as
 A)The innerHTML property is used to write the HTML code using JavaScript dynamically. 
 Ex:document.getElementById('mylocation').innerHTML="<h2>This is heading using JavaScript</h2>";
 
+17)What are Constructors in JavaScript?
+A)Constructors in JS are the most powerful members of a class which will be used for object Initialization.The specified ability of a constructor is, it will be involevd only once during creation of an object.
+Ex:function User(name) {
+  this.name = name;
+}
+
+let firstUser = new User('John Doe');
+
 
