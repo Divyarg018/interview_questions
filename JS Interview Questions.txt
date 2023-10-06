@@ -116,6 +116,12 @@ let firstUser = new User('John Doe');
 A)The Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.
 //Diagram
 
+19)How Can You Return a Character From a Specified Index?
+A)Use the charAt() method. In the example below, we can retrieve the first char at index 0 to fetch J.
+Ex:
+let userName = "John";
+console.log(userName.charAt(0)); // "J"
+
 
 
 
