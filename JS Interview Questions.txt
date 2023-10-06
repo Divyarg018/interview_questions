@@ -106,10 +106,10 @@ Ex:document.getElementById('mylocation').innerHTML="<h2>This is heading using Ja
 
 17)What are Constructors in JavaScript?
 A)Constructors in JS are the most powerful members of a class which will be used for object Initialization.The specified ability of a constructor is, it will be involevd only once during creation of an object.
+
 Ex:function User(name) {
   this.name = name;
 }
-
 let firstUser = new User('John Doe');
 
 18)What is DOM?
@@ -121,6 +121,13 @@ A)Use the charAt() method. In the example below, we can retrieve the first char 
 Ex:
 let userName = "John";
 console.log(userName.charAt(0)); // "J"
+
+20)What are the arrow functions in JavaScript?
+A)Arrow functions are a short and concise way of writing functions in JavaScript. The general syntax of an arrow function is as below:
+
+const helloWorld = () => {
+  console.log("hello world!");
+};
 
 
 
