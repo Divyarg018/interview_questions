@@ -81,7 +81,7 @@ isNaN(undefined) // Returns true
 13)Explain Higher Order Functions in javascript.
 A)Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
 
-Higher-order functions are a result of functions being first-class citizens in javascript.
+Higher-order functions are a result of functions being first-class objects in javascript.They have built-in properties and methods, such as the name property and the .toString() method.
 
 Example for higher-order functions:
 
